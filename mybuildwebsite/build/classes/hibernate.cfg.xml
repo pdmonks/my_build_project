@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    	<!-- <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property> -->
+    	<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<!-- cloud credentials -->
+		<!-- <property name="hibernate.connection.password">UumMeHJqE5yYAgC</property> -->
+		<property name="hibernate.connection.password">kbCFLc8fyXRkUCa</property>
+		<property name="hibernate.connection.url">jdbc:mysql://35.246.29.149/mybuild?cloudSqlInstance=pdmmybuildapp:europe-west2:cloud-mysql-mybuild</property>
+		<!-- local host credentials -->
+		<!-- <property name="hibernate.connection.password">College1</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mybuild</property> -->
+		<!-- <property name="hibernate.connection.username">mybuild_administrator</property> -->
+		<property name="hibernate.connection.username">mybuild_customer</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- to show the sql statements generated -->
+		<property name="show_sql">false</property>
+		
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,100 @@
+/* navbar refers to the navigation bar in all pages */
+
+#navbarlogoimg /* company logo image in navbar */
+{
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: #000000 !important;
+}
+
+#navbarimg /* other images in navbar */
+{
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: solid !important;
+    border-width: 0px !important;
+    border-color: #C0C0C0 !important;
+    margin-top: 6px !important;
+}
+
+#navbarimg:hover /* hover over other images in navbar */
+{
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: solid !important;
+    border-width: 3px !important;
+    border-color: #C0C0C0 !important;
+    margin-top: 1px !important;
+}
+
+footer /* footers in all pages */
+{
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+	border: 1px solid black !important;
+	border-collapse: collapse;
+}
+
+table {
+	width: 100%;
+	empty-cells: hide;
+}
+
+#tableDetail {
+	background-color: #f5f5f5;
+}
+
+/* image dimensions for mybuild logo in main page content */
+#mybuildlogo {
+	height: auto;
+    width: 20%;
+}
+
+/* setting width and alignment for all form fields */
+.form-control {
+	width: 100% !important;
+	text-align: center !important;
+}
+
+/* general styling for all buttons */
+input[type="button"] {
+	width: 400px;
+	background-color: #00B0F0;
+	color: #FFFFFF;
+}
+
+#componentImage {
+	height: auto;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#messageArea {
+	text-align: center;
+	color: #ff0000;
+}
+
+
+
